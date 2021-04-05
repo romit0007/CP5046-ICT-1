@@ -1,10 +1,11 @@
 import React from 'react'
+import BookA from '../components/BookA'
 
 const BApage = () => {
     return (
-        <div>
-            <h1>Book Appointment</h1>
-        </div>
+        <>
+          <BookA />
+        </>
     )
 }
 
