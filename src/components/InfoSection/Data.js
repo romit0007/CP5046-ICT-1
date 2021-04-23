@@ -32,3 +32,20 @@ export const homeObjTwo = {
     darkText: true,
 };
 
+export const homeObjThree = {
+    id: 'team',
+    lightBg: false,
+    lightText: false,
+    lighttextDesc: true,
+    topLine: 'Speciality',
+    headline: 'Services',
+    description: 'Child Care etc',
+    buttonLabel: 'Know More',
+    imgStart: true,
+    img: require("../../images/services.svg").default,
+    alt: 'services',
+    dark: true,
+    primary: true,
+    darkText: true,
+};
+
