@@ -11,9 +11,9 @@ const Services = () => {
                     <ServicesIcon />
                     <ServicesH2> Chronic Diseases Management </ServicesH2>
                     <ServicesP>
-                        Diabetes and Thyroid conditions Asthma, Emphysema, and COPD Hypertension, 
-                        High Cholesterol Heart Diseases Osteoarthritis, 
-                        Rheumatoid arthritis Other musculo-skeletal conditions Osteoporosis 
+                        Diabetes and Thyroid conditions Asthma, Emphysema, and COPD Hypertension,
+                        High Cholesterol Heart Diseases Osteoarthritis,
+                        Rheumatoid arthritis Other musculo-skeletal conditions Osteoporosis
                         Obesity and weight management
                     </ServicesP>
                 </ServicesCard>
@@ -21,9 +21,9 @@ const Services = () => {
                     <ServicesIcon />
                     <ServicesH2> Women's and Men's Health </ServicesH2>
                     <ServicesP>
-                        Reproductive and sexual health, 
+                        Reproductive and sexual health,
                         Infertility Contraception and family planning,
-                        Cervical Screening, Pap smears, 
+                        Cervical Screening, Pap smears,
                         Menopause, post menopausal conditions,
                         Ante-natal, post- natal follow up
                     </ServicesP>
@@ -32,12 +32,12 @@ const Services = () => {
                     <ServicesIcon />
                     <ServicesH2> Child and Adolescents Health </ServicesH2>
                     <ServicesP>
-                        Vaccinations Healthy Kids Check Development, 
+                        Vaccinations Healthy Kids Check Development,
                         DelaysBehaviour disordersAdolescent medicine Acne
                     </ServicesP>
                 </ServicesCard>
             </ServicesWrapper>
-            <ServicesBtnLink to = 'mservices'> More </ServicesBtnLink>
+            <ServicesBtnLink to = 'Mservices'> More </ServicesBtnLink>
         </ServicesContainer>
     )
 }
