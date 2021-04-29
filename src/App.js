@@ -1,0 +1,21 @@
+import './App.css';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import Home from './pages';
+import BApage from './pages/BA';
+import Mservices from './pages/Mservices';
+import ContactPage from './pages/Contact';
+
+function App() {
+  return (
+    <Router>
+      <Switch>
+        <Route path='/' component={Home} exact />
+        <Route path='/BA' component={BApage} exact />
+        <Route path='/MServices' component={Mservices} exact />
+        <Route path='/Contact' component={ContactPage} exact />
+      </Switch>
+    </Router>
+  );
+}
+
+export default App;
