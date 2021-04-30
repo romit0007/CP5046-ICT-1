@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^12.7.3",
     "axios": "^0.21.1",
     "bootstrap": "^4.6.0",
+    "create-react-app": "^4.0.3",
     "emailjs-com": "^2.6.4",
     "moment": "^2.29.1",
     "react": "^17.0.1",

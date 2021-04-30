@@ -2,23 +2,26 @@ import React from 'react'
 // import {AContainer, AContent, AH1, AWrapper, ACard, AIcon, AH2, AP} from './AServicesElements'
 // import Banner from '../../../src/Services-banner1.jpg'
 import {AServicesContainer, AServicesCard, AServicesH2, AServicesIcon, AServicesWrapper, AServicesP} from './AServicesElements'
+import Img1 from '../../chronic1.jpg'
+import Img2 from '../../MAW.jpg'
+import Img3 from '../../child1.jpg'
 
 const AServices = () => {
     return (
         <AServicesContainer id = "services">
             <AServicesWrapper>
                 <AServicesCard>
-                    <AServicesIcon />
+                    <AServicesIcon src = {Img1}/>
                     <AServicesH2> Chronic Diseases Management </AServicesH2>
                     <AServicesP>
                         Diabetes and Thyroid conditions Asthma, Emphysema, and COPD Hypertension, 
                         High Cholesterol Heart Diseases Osteoarthritis, 
-                        Rheumatoid arthritis Other musculo-skeletal conditions Osteoporosis 
+                        Rheumatoid arthritis,Osteoporosis 
                         Obesity and weight management
                     </AServicesP>
                 </AServicesCard>
                 <AServicesCard>
-                    <AServicesIcon />
+                    <AServicesIcon src = {Img2}/>
                     <AServicesH2> Women's and Men's Health </AServicesH2>
                     <AServicesP>
                         Reproductive and sexual health, 
@@ -29,7 +32,7 @@ const AServices = () => {
                     </AServicesP>
                 </AServicesCard>
                 <AServicesCard>
-                    <AServicesIcon />
+                    <AServicesIcon src = {Img3}/>
                     <AServicesH2> Child and Adolescents Health </AServicesH2>
                     <AServicesP>
                         Vaccinations Healthy Kids Check Development, 
@@ -37,7 +40,7 @@ const AServices = () => {
                     </AServicesP>
                 </AServicesCard>
                 <AServicesCard>
-                    <AServicesIcon />
+                    <AServicesIcon src = {Img1} />
                     <AServicesH2> Child and Adolescents Health </AServicesH2>
                     <AServicesP>
                         Vaccinations Healthy Kids Check Development, 
@@ -45,7 +48,7 @@ const AServices = () => {
                     </AServicesP>
                 </AServicesCard>
                 <AServicesCard>
-                    <AServicesIcon />
+                    <AServicesIcon src = {Img1}/>
                     <AServicesH2> Child and Adolescents Health </AServicesH2>
                     <AServicesP>
                         Vaccinations Healthy Kids Check Development, 
@@ -53,7 +56,7 @@ const AServices = () => {
                     </AServicesP>
                 </AServicesCard>
                 <AServicesCard>
-                    <AServicesIcon />
+                    <AServicesIcon src = {Img1}/>
                     <AServicesH2> Child and Adolescents Health </AServicesH2>
                     <AServicesP>
                         Vaccinations Healthy Kids Check Development, 
