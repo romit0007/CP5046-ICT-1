@@ -1,14 +1,16 @@
 import React from 'react'
 import { TeamContainer, TeamH1, TeamWrapper, TeamCard, TeamIcon, TeamH2,
 TeamP } from './TeamElements';
-
+import M1 from '../../M1.jpeg'
+import M2 from '../../M2.jpeg'
+import M3 from '../../M3.jpegs'
 const Team = () => {
     return (
         <TeamContainer id = "Team">
             <TeamH1>Our Team</TeamH1>
             <TeamWrapper>
                 <TeamCard>
-                    <TeamIcon />
+                    <TeamIcon src = {M1}/>
                     <TeamH2> Dr Virginia Oliviera </TeamH2>
                     <TeamP>
                     Virginia is a Fellow of the Royal Australian College of General Practitioners. She graduated in South Africa and has more than 20 years of medical experience. Besides speaking English she is also fluent in Portuguese & Afrikaans. 
@@ -16,7 +18,7 @@ const Team = () => {
                     </TeamP>
                 </TeamCard>
                 <TeamCard>
-                    <TeamIcon />
+                    <TeamIcon src = {M2}/>
                     <TeamH2> Dr Nithi Anapayan </TeamH2>
                     <TeamP>
                     Nithi is a Fellow of the Royal Australian College of General Practitioners. She graduated in Sri Lanka 10 years ago, She has numerous medical experiences throughout SE QLD hospitals,
@@ -25,7 +27,7 @@ const Team = () => {
                     </TeamP>
                 </TeamCard>
                 <TeamCard>
-                    <TeamIcon />
+                    <TeamIcon src = {M3}/>
                     <TeamH2> Dr Sam Ibrahim </TeamH2>
                     <TeamP>
                     Sam is a Fellow of the Royal Australian College of GP with more than 25 years of medical experience.

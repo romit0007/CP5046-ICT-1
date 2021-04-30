@@ -5,7 +5,9 @@ import {AServicesContainer, AServicesCard, AServicesH2, AServicesIcon, AServices
 import Img1 from '../../chronic1.jpg'
 import Img2 from '../../MAW.jpg'
 import Img3 from '../../child1.jpg'
-
+import Img4 from '../../skin care.jpg'
+import Img5 from '../../telehealth.jpg'
+import Img6 from '../../Health assessment.jpg'
 const AServices = () => {
     return (
         <AServicesContainer id = "services">
@@ -40,27 +42,25 @@ const AServices = () => {
                     </AServicesP>
                 </AServicesCard>
                 <AServicesCard>
-                    <AServicesIcon src = {Img1} />
-                    <AServicesH2> Child and Adolescents Health </AServicesH2>
+                    <AServicesIcon src = {Img4} />
+                    <AServicesH2> Skin Cancers </AServicesH2>
                     <AServicesP>
-                        Vaccinations Healthy Kids Check Development, 
-                        DelaysBehaviour disordersAdolescent medicine Acne
+                    Full Skin Cancer Checks, Skin Biopsies, Skin Cancer Surgery and Flaps
                     </AServicesP>
                 </AServicesCard>
                 <AServicesCard>
-                    <AServicesIcon src = {Img1}/>
-                    <AServicesH2> Child and Adolescents Health </AServicesH2>
+                    <AServicesIcon src = {Img5}/>
+                    <AServicesH2> Tele health </AServicesH2>
                     <AServicesP>
-                        Vaccinations Healthy Kids Check Development, 
-                        DelaysBehaviour disordersAdolescent medicine Acne
+                        We offer telehealth consults for our patients, where suitable and possible
                     </AServicesP>
                 </AServicesCard>
                 <AServicesCard>
-                    <AServicesIcon src = {Img1}/>
-                    <AServicesH2> Child and Adolescents Health </AServicesH2>
+                    <AServicesIcon src = {Img6}/>
+                    <AServicesH2> Health Assessment </AServicesH2>
                     <AServicesP>
-                        Vaccinations Healthy Kids Check Development, 
-                        DelaysBehaviour disordersAdolescent medicine Acne
+                    Health Assessments, New Baby Check Up, 4 Year Old Healthy Kids Check Up , 45 - 49 Year Old Health Assessment,
+                    75 Year Old Health Assessment, Aboriginal Health Assessment
                     </AServicesP>
                 </AServicesCard>
             </AServicesWrapper>
