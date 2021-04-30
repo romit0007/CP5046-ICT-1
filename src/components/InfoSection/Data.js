@@ -42,13 +42,14 @@ export const homeObjThree = {
     topLine: '',
     headline: 'Privacy Policy',
     description: 'Our agreement with you',
-    buttonLabel: 'Meet Them',
+    buttonLabel: 'Know More',
     imgStart: true,
     img: require("../../images/policy.svg").default,
     alt: 'policy',
     dark: true,
     primary: true,
-    darkText: true, 
+    darkText: true,
+    buttonClick:'/Policy'
 };
 
 

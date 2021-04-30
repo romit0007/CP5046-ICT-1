@@ -1,6 +1,6 @@
 import React from 'react'
 import { TeamContainer, TeamH1, TeamWrapper, TeamCard, TeamIcon, TeamH2,
-TeamP, TeamBtnLink } from './TeamElements';
+TeamP } from './TeamElements';
 
 const Team = () => {
     return (
@@ -9,35 +9,32 @@ const Team = () => {
             <TeamWrapper>
                 <TeamCard>
                     <TeamIcon />
-                    <TeamH2> Chronic Diseases Management </TeamH2>
+                    <TeamH2> Dr Virginia Oliviera </TeamH2>
                     <TeamP>
-                        Diabetes and Thyroid conditions Asthma, Emphysema, and COPD Hypertension, 
-                        High Cholesterol Heart Diseases Osteoarthritis, 
-                        Rheumatoid arthritis Other musculo-skeletal conditions Osteoporosis 
-                        Obesity and weight management
+                    Virginia is a Fellow of the Royal Australian College of General Practitioners. She graduated in South Africa and has more than 20 years of medical experience. Besides speaking English she is also fluent in Portuguese & Afrikaans. 
+                    She looks forward to getting to know her patients and being given the opportunity to providing quality family care.
                     </TeamP>
                 </TeamCard>
                 <TeamCard>
                     <TeamIcon />
-                    <TeamH2> Women's and Men's Health </TeamH2>
+                    <TeamH2> Dr Nithi Anapayan </TeamH2>
                     <TeamP>
-                        Reproductive and sexual health, 
-                        Infertility Contraception and family planning,
-                        Cervical Screening, Pap smears, 
-                        Menopause, post menopausal conditions,
-                        Ante-natal, post- natal follow up
+                    Nithi is a Fellow of the Royal Australian College of General Practitioners. She graduated in Sri Lanka 10 years ago, She has numerous medical experiences throughout SE QLD hospitals,
+                     She also hold a Diploma in Child Health. 
+                     Her Interests include antenatal care, women's health, paediatrics, mental health and preventive medicine. 
                     </TeamP>
                 </TeamCard>
                 <TeamCard>
                     <TeamIcon />
-                    <TeamH2> Child and Adolescents Health </TeamH2>
+                    <TeamH2> Dr Sam Ibrahim </TeamH2>
                     <TeamP>
-                        Vaccinations Healthy Kids Check Development, 
-                        DelaysBehaviour disordersAdolescent medicine Acne
+                    Sam is a Fellow of the Royal Australian College of GP with more than 25 years of medical experience.
+                     He graduated from Egypt, then obtained two Master Degrees.
+                    He moved to Australia in 2007 and obtained his Australian Fellowship in 2008.
+                     He is also a senior lecturer at Griffith University School of Medicine, an examiner of the RACGP and an accredited trainer.
                     </TeamP>
                 </TeamCard>
             </TeamWrapper>
-            <TeamBtnLink to = '/Team'> More </TeamBtnLink>
         </TeamContainer>
     )
 }

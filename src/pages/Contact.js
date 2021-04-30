@@ -1,11 +1,16 @@
 import React from 'react'
-import Navbar from '../components/Navbar' 
+import Contact from '../components/Contact'
+import Navbar from '../components/Navbar'
+import PageBanner from '../components/PageBanner' 
 
 const ContactPage = () => {
     
     return (
         <>
-            <Navbar/>
+        <Navbar />
+        <PageBanner />
+        <Contact />
+        
         </>
     )
 }

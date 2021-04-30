@@ -9,7 +9,8 @@ export const PolicyH1 = styled.h1`
     align-items:center;
     text-align: center;
     color: black;
-    font-weight: 400;
+    font-weight: 500;
+    font-size: 35px;
 `
 
 export const PolicyTable = styled.div`
@@ -24,4 +25,9 @@ export const PolicyColumn = styled.div`
         width: 100%;
     }
 `
-
+export const PolicyH2 = styled.h2`
+    font-size: 20px;
+    font-weight: 400;
+`
+export const PolicyP = styled.p`
+`

@@ -4,6 +4,7 @@ import Home from './pages';
 import BApage from './pages/BA';
 import Mservices from './pages/Mservices';
 import ContactPage from './pages/Contact';
+import Policy from './pages/Policy';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path='/BA' component={BApage} exact />
         <Route path='/MServices' component={Mservices} exact />
         <Route path='/Contact' component={ContactPage} exact />
+        <Route path='/Policy' component={Policy} exact/> 
       </Switch>
     </Router>
   );
