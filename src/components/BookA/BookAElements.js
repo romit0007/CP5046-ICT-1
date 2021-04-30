@@ -64,6 +64,7 @@ export const Form = styled.form`
     padding: 80px 32px;
     border-radius: 4px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
+    margin-top: 2px;
 
     @media screen and (max-width: 400px){
         padding: 32px 2px;

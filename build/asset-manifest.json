@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.87514651.chunk.css",
+    "main.js": "/static/js/main.aaf863db.chunk.js",
+    "main.js.map": "/static/js/main.aaf863db.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8f7b0a18.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8f7b0a18.js.map",
+    "static/css/2.150d169a.chunk.css": "/static/css/2.150d169a.chunk.css",
+    "static/js/2.fd68f3b1.chunk.js": "/static/js/2.fd68f3b1.chunk.js",
+    "static/js/2.fd68f3b1.chunk.js.map": "/static/js/2.fd68f3b1.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.87514651.chunk.css.map": "/static/css/main.87514651.chunk.css.map",
+    "static/js/2.fd68f3b1.chunk.js.LICENSE.txt": "/static/js/2.fd68f3b1.chunk.js.LICENSE.txt",
+    "static/media/Health assessment.ad990b17.jpg": "/static/media/Health assessment.ad990b17.jpg",
+    "static/media/M1.f2093cfd.jpeg": "/static/media/M1.f2093cfd.jpeg",
+    "static/media/M2.ab5121ee.jpeg": "/static/media/M2.ab5121ee.jpeg",
+    "static/media/M3.e658734e.jpeg": "/static/media/M3.e658734e.jpeg",
+    "static/media/MAW.e5e2e8ba.jpg": "/static/media/MAW.e5e2e8ba.jpg",
+    "static/media/Services-banner1.9c477085.jpg": "/static/media/Services-banner1.9c477085.jpg",
+    "static/media/about.svg": "/static/media/about.9fbf8838.svg",
+    "static/media/child1.29868524.jpg": "/static/media/child1.29868524.jpg",
+    "static/media/chronic1.f8f119df.jpg": "/static/media/chronic1.f8f119df.jpg",
+    "static/media/policy.svg": "/static/media/policy.62b66495.svg",
+    "static/media/services.svg": "/static/media/services.bec50282.svg",
+    "static/media/skin cancer.0f1781c7.jpg": "/static/media/skin cancer.0f1781c7.jpg",
+    "static/media/tele health.15f7b89e.jpg": "/static/media/tele health.15f7b89e.jpg",
+    "static/media/video.7cbb7884.mp4": "/static/media/video.7cbb7884.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8f7b0a18.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.fd68f3b1.chunk.js",
+    "static/css/main.87514651.chunk.css",
+    "static/js/main.aaf863db.chunk.js"
+  ]
+}

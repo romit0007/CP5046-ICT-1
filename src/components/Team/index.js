@@ -32,7 +32,6 @@ const Team = () => {
                     <TeamP>
                     Sam is a Fellow of the Royal Australian College of GP with more than 25 years of medical experience.
                      He graduated from Egypt, then obtained two Master Degrees.
-                    He moved to Australia in 2007 and obtained his Australian Fellowship in 2008.
                      He is also a senior lecturer at Griffith University School of Medicine, an examiner of the RACGP and an accredited trainer.
                     </TeamP>
                 </TeamCard>
