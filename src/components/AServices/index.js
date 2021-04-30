@@ -6,7 +6,7 @@ import Img1 from '../../chronic1.jpg'
 import Img2 from '../../MAW.jpg'
 import Img3 from '../../child1.jpg'
 import Img4 from '../../skin cancer.jpg'
-import Img5 from '../../telehealth.jpg'
+import Img5 from '../../tele health.jpg'
 import Img6 from '../../Health assessment.jpg'
 const AServices = () => {
     return (
