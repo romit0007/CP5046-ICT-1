@@ -5,7 +5,7 @@ import {AServicesContainer, AServicesCard, AServicesH2, AServicesIcon, AServices
 import Img1 from '../../chronic1.jpg'
 import Img2 from '../../MAW.jpg'
 import Img3 from '../../child1.jpg'
-import Img4 from '../../skin care.jpg'
+import Img4 from '../../skin cancer.jpg'
 import Img5 from '../../telehealth.jpg'
 import Img6 from '../../Health assessment.jpg'
 const AServices = () => {
