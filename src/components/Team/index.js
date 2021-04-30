@@ -3,7 +3,7 @@ import { TeamContainer, TeamH1, TeamWrapper, TeamCard, TeamIcon, TeamH2,
 TeamP } from './TeamElements';
 import M1 from '../../M1.jpeg'
 import M2 from '../../M2.jpeg'
-import M3 from '../../M3.jpegs'
+import M3 from '../../M3.jpeg'
 const Team = () => {
     return (
         <TeamContainer id = "Team">
