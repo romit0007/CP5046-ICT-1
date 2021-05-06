@@ -1,25 +1,48 @@
 import React from 'react'
 
+import {FooterContainer, FooterTable, FooterColumn, FooterH1, FooterMenu, FooterItem, FooterLinks, SocialMedia, FooterInput} from './FooterElements'
+
 const Footer = () => {
     return (
         <FooterContainer>
             <FooterTable>
                 <FooterColumn>
-                    <FooterH3>Quick Links</FooterH3>
-                    <FooterLinks>
-                        <ul>
-                            <li>Services</li>
-                            <li>Team</li>
-                            <li>Policy</li>
-                        </ul></FooterLinks>
+                    <FooterH1>
+                        Quick Links
+                    </FooterH1>
+                    <FooterMenu>
+                        <FooterItem>
+                            <FooterLinks>Services</FooterLinks>
+                        </FooterItem>
+                        <FooterItem>
+                            <FooterLinks>Team</FooterLinks>
+                        </FooterItem>
+                        <FooterItem>
+                            <FooterLinks>Policy</FooterLinks>
+                        </FooterItem>
+                        <FooterItem>
+                            <FooterLinks>Contact Us</FooterLinks>
+                        </FooterItem>
+                        <FooterItem>
+                            <FooterLinks>Book a Appointment</FooterLinks>
+                        </FooterItem>
+                    </FooterMenu>
                 </FooterColumn>
                 <FooterColumn>
-                    <FooterH3 >Contact Us</FooterH3>
+                    <FooterH1>
+                        Social Media
+                    </FooterH1>
+                    <SocialMedia>
+
+                    </SocialMedia>
                 </FooterColumn>
                 <FooterColumn>
-                    <FooterMap>
-                        <p>MAP</p>
-                    </FooterMap>
+                    <FooterH1>
+                        Subscribe to Newsletter
+                    </FooterH1>
+                    <FooterInput>
+
+                    </FooterInput>
                 </FooterColumn>
             </FooterTable>
         </FooterContainer>

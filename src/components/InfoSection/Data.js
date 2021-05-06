@@ -13,7 +13,9 @@ export const homeObjOne = {
     dark: true,
     primary: true,
     darkText: true,
-    buttonClick: '/MServices'
+    buttonClick: '/MServices',
+    animation1: 'fade-left',
+    animation2: 'fade-right'
 };
 
 export const homeObjTwo = {
@@ -25,13 +27,15 @@ export const homeObjTwo = {
     headline: 'Contact Us',
     description: 'Child Care etc',
     buttonLabel: 'Know More',
-    imgStart: true,
+    imgStart: false,
     img: require("../../images/services.svg").default,
     alt: 'services',
     dark: true,
     primary: true,
     darkText: true,
-    buttonClick: '/Contact'
+    buttonClick: '/Contact',
+    animation1: 'fade-left',
+    animation2: 'fade-right'
 };
 
 export const homeObjThree = {
@@ -49,7 +53,9 @@ export const homeObjThree = {
     dark: true,
     primary: true,
     darkText: true,
-    buttonClick:'/Policy'
+    buttonClick:'/Policy',
+    animation1: 'fade-right',
+    animation2: 'fade-left'
 };
 
 

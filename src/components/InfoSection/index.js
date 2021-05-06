@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
 import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, ImgWrap ,Img, BtnLink } from './InfoElements'
 
 
-const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, img, alt, primary, dark, dark2, buttonClick}) => {
+const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, img, alt, primary, dark, dark2, buttonClick, animation1, animation2}) => {
     Aos.init({
         duration : 1200
     });
@@ -13,7 +13,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
           <InfoContainer lightBg ={ lightBg} id = {id}>
               <InfoWrapper>
                   <InfoRow imgStart ={imgStart}>
-                      <Column1 data-aos = "fade-right">
+                      <Column1 data-aos = {animation1}>
                         <TextWrapper>
                             <TopLine>{topLine}</TopLine>
                             <Heading lightText = {lightText} >{headline}</Heading>
@@ -30,7 +30,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
                             </BtnLink>
                         </TextWrapper>
                       </Column1>
-                      <Column2 data-aos = "fade-right">
+                      <Column2 data-aos = {animation2}>
                         <ImgWrap>
                             <Img src = {img} alt={alt} />
                         </ImgWrap>
