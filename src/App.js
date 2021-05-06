@@ -5,7 +5,7 @@ import BApage from './pages/BA';
 import Mservices from './pages/Mservices';
 import ContactPage from './pages/Contact';
 import Policy from './pages/Policy';
-import Team from './components/Team';
+import Covid from './pages/Covid';
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
         <Route path='/Contact' component={ContactPage} exact />
         <Route path='/Team' component={Team} exact />
         <Route path='/Policy' component={Policy} exact/> 
+        <Route path='/Covid' component={Covid} exact /> 
       </Switch>
     </Router>
   );

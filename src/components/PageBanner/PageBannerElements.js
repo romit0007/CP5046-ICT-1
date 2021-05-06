@@ -8,7 +8,7 @@ export const PageContainer = styled.div`
 `
 
 export const PageBg = styled.img`
-    opacity: 0.5;
+   
 `
 
 export const PageH1 = styled.h1`
