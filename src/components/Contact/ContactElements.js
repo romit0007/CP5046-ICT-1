@@ -83,3 +83,4 @@ export const ContactAddress = styled.div``
 export const ContactEmail = styled.div``
 export const ContactPhone = styled.div``
 export const ContactHours = styled.div``
+export const ContactP = styled.p``
