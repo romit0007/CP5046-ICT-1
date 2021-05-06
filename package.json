@@ -23,6 +23,7 @@
     "react-scripts": "4.0.3",
     "react-scroll": "^1.8.1",
     "react-toastify": "^7.0.4",
+    "social-media-icons-react": "^1.1.2",
     "styled-components": "^5.2.1",
     "web-vitals": "^1.1.0"
   },

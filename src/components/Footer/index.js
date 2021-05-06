@@ -1,50 +1,49 @@
 import React from 'react'
 
-import {FooterContainer, FooterTable, FooterColumn, FooterH1, FooterMenu, FooterItem, FooterLinks, SocialMedia, FooterInput} from './FooterElements'
+import {FooterContainer, FooterTable, FooterColumn, FooterH1, FooterMenu, FooterItem, FooterLinks, SocialMedia, FooterInput, FooterWrapper} from './FooterElements'
 
 const Footer = () => {
     return (
         <FooterContainer>
-            <FooterTable>
-                <FooterColumn>
-                    <FooterH1>
-                        Quick Links
-                    </FooterH1>
-                    <FooterMenu>
-                        <FooterItem>
-                            <FooterLinks>Services</FooterLinks>
-                        </FooterItem>
-                        <FooterItem>
-                            <FooterLinks>Team</FooterLinks>
-                        </FooterItem>
-                        <FooterItem>
-                            <FooterLinks>Policy</FooterLinks>
-                        </FooterItem>
-                        <FooterItem>
-                            <FooterLinks>Contact Us</FooterLinks>
-                        </FooterItem>
-                        <FooterItem>
-                            <FooterLinks>Book a Appointment</FooterLinks>
-                        </FooterItem>
-                    </FooterMenu>
-                </FooterColumn>
-                <FooterColumn>
-                    <FooterH1>
-                        Social Media
-                    </FooterH1>
-                    <SocialMedia>
+            <FooterWrapper>
+                <FooterTable>
+                    <FooterColumn>
+                        <FooterH1>
+                            Quick Links
+                        </FooterH1>
+                        <FooterMenu>
+                            <FooterItem>
+                                <FooterLinks to = '/Mservices'>Services</FooterLinks>
+                            </FooterItem>
+                            <FooterItem>
+                                <FooterLinks to = '/policy'>Policy</FooterLinks>
+                            </FooterItem>
+                            <FooterItem>
+                                <FooterLinks to = 'contact'>Contact Us</FooterLinks>
+                            </FooterItem>
+                            <FooterItem>
+                                <FooterLinks to = 'BA'>Book a Appointment</FooterLinks>
+                            </FooterItem>
+                        </FooterMenu>
+                    </FooterColumn>
+                    <FooterColumn>
+                        <FooterH1>
+                            Social Media
+                        </FooterH1>
+                        <SocialMedia>
+                            
+                        </SocialMedia>
+                    </FooterColumn>
+                    <FooterColumn>
+                        <FooterH1>
+                            Subscribe to Newsletter
+                        </FooterH1>
+                        <FooterInput>
 
-                    </SocialMedia>
-                </FooterColumn>
-                <FooterColumn>
-                    <FooterH1>
-                        Subscribe to Newsletter
-                    </FooterH1>
-                    <FooterInput>
-
-                    </FooterInput>
-                </FooterColumn>
-            </FooterTable>
+                        </FooterInput>
+                    </FooterColumn>
+                </FooterTable>
+            </FooterWrapper>
         </FooterContainer>
     )
 }
