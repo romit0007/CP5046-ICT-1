@@ -1,5 +1,5 @@
 import React from 'react'
-import {ContactContainer, ContactTable, ContactColumn, ContactH2, FormH2, Form, ContactContent, ContactAddress, ContactPhone, ContactEmail, FormContent, FormInput, FormLabel, FormButton} from './ContactElements'
+import {ContactContainer, ContactTable, ContactColumn, ContactH2, FormH2, Form, ContactContent, ContactAddress, ContactPhone, ContactEmail, FormContent, FormInput, FormLabel, FormButton, ContactHours} from './ContactElements'
 const Contact = () => {
     return (
         <ContactContainer>
@@ -26,6 +26,7 @@ const Contact = () => {
                         <ContactAddress>Address : 1-3 College St, North Lakes QLD 4509</ContactAddress>
                         <ContactPhone>Phone :(07) 3482 4677</ContactPhone>
                         <ContactEmail>Email : bestlifemedicals@gmail.com</ContactEmail>
+                        <ContactHours>Opening Hours: Monday to Saturday - 8am to 5pm </ContactHours>
                     </ContactContent>
                 </ContactColumn>
             </ContactTable>
