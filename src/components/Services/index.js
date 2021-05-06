@@ -4,13 +4,18 @@ ServicesP, ServicesBtnLink } from './ServicesElements';
 import Icon3 from '../../../src/child1.jpg'
 import Icon2 from '../../../src/MAW.jpg'
 import Icon1 from '../../../src/chronic1.jpg'
+import Aos from 'aos'
+import 'aos/dist/aos.css';
 
 const Services = () => {
+    Aos.init({
+        duration : 1200
+    });
     return (
         <ServicesContainer id = "services">
-            <ServicesH1>Our Services</ServicesH1>
+            <ServicesH1 data-aos = "zoom-in">Our Services</ServicesH1>
             <ServicesWrapper>
-                <ServicesCard>
+                <ServicesCard data-aos = "flip-up">
                     <ServicesIcon src = {Icon1}/>
                     <ServicesH2> Chronic Diseases Management </ServicesH2>
                     <ServicesP>
@@ -20,7 +25,7 @@ const Services = () => {
                         Obesity and weight management
                     </ServicesP>
                 </ServicesCard>
-                <ServicesCard>
+                <ServicesCard data-aos = "flip-up">
                     <ServicesIcon src = {Icon2}/>
                     <ServicesH2> Women's and Men's Health </ServicesH2>
                     <ServicesP>
@@ -31,7 +36,7 @@ const Services = () => {
                         Ante-natal, post- natal follow up
                     </ServicesP>
                 </ServicesCard>
-                <ServicesCard>
+                <ServicesCard data-aos = "flip-down">
                     <ServicesIcon src = {Icon3}/>
                     <ServicesH2> Child and Adolescents Health </ServicesH2>
                     <ServicesP>

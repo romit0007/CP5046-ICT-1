@@ -4,7 +4,7 @@ import {Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavLinks, NavItem, N
 
 import {animateScroll as scroll} from 'react-scroll'
 
-import Logo from '../../Logo.png'
+import NavImage from '../../logo.png'
 
 
 const Navbar = ({toggle}) => {
@@ -16,7 +16,8 @@ const Navbar = ({toggle}) => {
         <>
             <Nav>
                 <NavbarContainer>
-                    <NavLogo to = '/' onClick = {toggeleHome} src = {Logo}></NavLogo>
+                    <NavLogo to = '/' onClick = {toggeleHome} src = {NavImage}>
+                    </NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars/>
                     </MobileIcon>

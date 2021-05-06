@@ -13,17 +13,14 @@ const Team = () => {
                     <TeamIcon src = {M1}/>
                     <TeamH2> Dr Virginia Oliviera </TeamH2>
                     <TeamP>
-                    Virginia is a Fellow of the Royal Australian College of General Practitioners. She graduated in South Africa and has more than 20 years of medical experience. Besides speaking English she is also fluent in Portuguese & Afrikaans. 
-                    She looks forward to getting to know her patients and being given the opportunity to providing quality family care.
+                    Virginia is a Fellow of the Royal Australian College of General Practitioners. She graduated in South Africa and has more than 20 years of medical experience.
                     </TeamP>
                 </TeamCard>
                 <TeamCard>
                     <TeamIcon src = {M2}/>
                     <TeamH2> Dr Nithi Anapayan </TeamH2>
                     <TeamP>
-                    Nithi is a Fellow of the Royal Australian College of General Practitioners. She graduated in Sri Lanka 10 years ago, She has numerous medical experiences throughout SE QLD hospitals,
-                     She also hold a Diploma in Child Health. 
-                     Her Interests include antenatal care, women's health, paediatrics, mental health and preventive medicine. 
+                    Nithi is a Fellow of the Royal Australian College of General Practitioners. She graduated in Sri Lanka 10 years ago.
                     </TeamP>
                 </TeamCard>
                 <TeamCard>
@@ -31,8 +28,7 @@ const Team = () => {
                     <TeamH2> Dr Sam Ibrahim </TeamH2>
                     <TeamP>
                     Sam is a Fellow of the Royal Australian College of GP with more than 25 years of medical experience.
-                     He graduated from Egypt, then obtained two Master Degrees.
-                     He is also a senior lecturer at Griffith University School of Medicine, an examiner of the RACGP and an accredited trainer.
+                     He is also a senior lecturer at Griffith University School of Medicine, an examiner of the RACGP.
                     </TeamP>
                 </TeamCard>
             </TeamWrapper>

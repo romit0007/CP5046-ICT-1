@@ -1,14 +1,19 @@
 import React from 'react'
+import Aos from 'aos'
+import 'aos/dist/aos.css';
 import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, ImgWrap ,Img, BtnLink } from './InfoElements'
 
 
 const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, img, alt, primary, dark, dark2, buttonClick}) => {
+    Aos.init({
+        duration : 1200
+    });
     return (
         <>
           <InfoContainer lightBg ={ lightBg} id = {id}>
               <InfoWrapper>
                   <InfoRow imgStart ={imgStart}>
-                      <Column1>
+                      <Column1 data-aos = "fade-right">
                         <TextWrapper>
                             <TopLine>{topLine}</TopLine>
                             <Heading lightText = {lightText} >{headline}</Heading>
@@ -25,7 +30,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
                             </BtnLink>
                         </TextWrapper>
                       </Column1>
-                      <Column2>
+                      <Column2 data-aos = "fade-right">
                         <ImgWrap>
                             <Img src = {img} alt={alt} />
                         </ImgWrap>
