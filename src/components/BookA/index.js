@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 // import DateTimePicker from 'react-datetime-picker';
 import {FormContainer, FormWrap, FormContent, Form, FormButton, FormInput, FormLabel } from './BookAElements'
 import {FormTable, FormColumn, FormLogo, FormH1, FormP, FormP1, FormImage} from './BookAElements'
@@ -6,9 +6,36 @@ import {FormTable, FormColumn, FormLogo, FormH1, FormP, FormP1, FormImage} from 
 import Logo from '../../../src/logo.png'
 
 
+const url = 'http://localhost:4000'
 
-const BookAElements = () => {
+const BookA = () => {
     // const [value, Onchange] = useState();
+
+    const [appointmentInfo, setAppointmentInfo] = useState({});
+
+    const handleChange = ({target}) => {
+        const {name, value} = target;
+        console.log(appointmentInfo);
+        if(!name) return;
+        setAppointmentInfo({
+            ...appointmentInfo,
+            [name]:value
+        });
+    }
+
+    const handleSubmit = async(e) => {
+        e.preventDefault();
+        const res =  await fetch(`${url}/events`,
+            {
+                method: 'POST',
+                headers: {
+                'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(appointmentInfo) 
+        })
+        const incomingRes = await res.json();
+        console.log(incomingRes);
+    }
     return (
         <FormContainer>
             <FormWrap>
@@ -24,25 +51,31 @@ const BookAElements = () => {
                     </FormColumn>
                     <FormColumn>
                         <FormContent>
-                            <Form action = '/'>
+                            <Form onSubmit = {handleSubmit}>
                                 
                             <FormP>
                                 <FormLabel htmlFor='for'> First Name </FormLabel>
-                                <FormInput type = 'text' required/>
+                                <FormInput type = 'text' onChange = {handleChange} name ='firstName' required/>
                                 </FormP><FormP>
                                 <FormLabel htmlFor='for'>Last Name</FormLabel>
-                                <FormInput type = 'text' required/>
+                                <FormInput type = 'text' onChange = {handleChange} name ='lastName' required/>
                                 </FormP><FormP>
                                 <FormLabel htmlFor='for'>Mobile Number</FormLabel>
-                                <FormInput type = 'number' required/>
+                                <FormInput type = 'number' onChange = {handleChange} name = 'number' required/>
                                 </FormP><FormP>
-                                <FormLabel htmlFor='for'>Email</FormLabel>
-                                <FormInput type = 'email' required/>
+                                <FormLabel htmlFor='for'>Purpose of Visit</FormLabel>
+                                <FormInput type = 'text' onChange = {handleChange} name ='purpose' required/>
                                 {/* <DateTimePicker Onchange = {Onchange}
                                 value = {value}/> */}
-                                </FormP><FormP>
+                                </FormP>
+                                <FormP>
+                                <FormLabel htmlFor='for'> Select Date and Time</FormLabel>
+                                <FormInput type = 'datetime-local' name ='dateTime' onChange = {handleChange} required/>
+                                </FormP>    
+                                <FormP></FormP>
+                                <FormP>
                                 <FormLabel htmlFor='for'>Select your Doctor</FormLabel>
-                                <FormInput type = 'text' required/>
+                                <FormInput type = 'text' onChange = {handleChange} name ='doctor' required/>
                                 </FormP><FormP>
                                 <FormButton type = 'submit'>Book</FormButton>
                                 </FormP>
@@ -61,4 +94,4 @@ const BookAElements = () => {
     )
 }
 
-export default BookAElements
+export default BookA

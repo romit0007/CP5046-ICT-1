@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import {Link as LinkR} from 'react-router-dom'
 
 export const FormContainer = styled.div`
     margin-top: 15px;
@@ -29,10 +28,10 @@ export const FormContent = styled.div`
     padding-top:15px;
     
 `
-export const Form = styled.div`
+export const Form = styled.form`
    
 `
-export const FormLabel = styled.div`
+export const FormLabel = styled.label`
     color: white;
     float: left;
     width:8em;
@@ -43,7 +42,7 @@ export const FormInput = styled.input`
 height:24px;
 width:50%;
 `
-export const FormButton = styled(LinkR)`
+export const FormButton = styled.button`
     border-radius: 50px;
     background: #01bf71;
     white-space: nowrap;

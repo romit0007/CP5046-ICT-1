@@ -6,7 +6,7 @@ const CovidBanner = () => {
     return (
         <CovidBannerContainer>
             <CovidBannerBg src = {Banner}></CovidBannerBg>
-            <CovidBannerH1></CovidBannerH1>
+            <CovidBannerH1>COVID-19</CovidBannerH1>
         </CovidBannerContainer>
     )
 }

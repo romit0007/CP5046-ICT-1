@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import Contact from '../components/Contact'
 import Navbar2 from '../components/Navbar2'
-import PageBanner from '../components/PageBanner' 
+import ContactBanner from '../components/ContactBanner' 
 import Sidebar from '../components/Sidebar'
 
 const ContactPage = () => {
@@ -14,7 +14,7 @@ const ContactPage = () => {
         <>
         <Sidebar isOpen={isOpen} toggle={toggle}/> 
         <Navbar2 toggle={toggle} />
-        <PageBanner />
+        <ContactBanner />
         <Contact />
         
         </>
