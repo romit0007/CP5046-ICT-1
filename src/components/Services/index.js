@@ -20,9 +20,7 @@ const Services = () => {
                     <ServicesH2> Chronic Diseases Management </ServicesH2>
                     <ServicesP>
                         Diabetes and Thyroid conditions Asthma, Emphysema, and COPD Hypertension, 
-                        High Cholesterol Heart Diseases Osteoarthritis, 
-                        Rheumatoid arthritis,Osteoporosis 
-                        Obesity and weight management
+                        High Cholesterol Heart Diseases
                     </ServicesP>
                 </ServicesCard>
                 <ServicesCard data-aos = "flip-up">
@@ -31,9 +29,7 @@ const Services = () => {
                     <ServicesP>
                         Reproductive and sexual health, 
                         Infertility Contraception and family planning,
-                        Cervical Screening, Pap smears, 
-                        Menopause, post menopausal conditions,
-                        Ante-natal, post- natal follow up
+                        Cervical Screening, Pap smears
                     </ServicesP>
                 </ServicesCard>
                 <ServicesCard data-aos = "flip-down">
@@ -41,7 +37,7 @@ const Services = () => {
                     <ServicesH2> Child and Adolescents Health </ServicesH2>
                     <ServicesP>
                         Vaccinations Healthy Kids Check Development, 
-                        DelaysBehaviour disordersAdolescent medicine Acne
+                        DelaysBehaviour disordersAdolescent medicine
                     </ServicesP>
                 </ServicesCard>
             </ServicesWrapper>

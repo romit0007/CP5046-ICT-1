@@ -72,7 +72,7 @@ export const Nav2Item = styled.li`
     height: 80px;
 `;
 
-export const Nav2Links = styled(LinkS)`
+export const Nav2Links = styled(LinkR)`
     color: #fff;
     display: flex;
     align-items: center;

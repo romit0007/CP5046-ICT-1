@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import  Navbar  from '../components/Navbar'
+import  Navbar2  from '../components/Navbar2'
 import APolicy from '../components/APolicy'
 import PolicyBanner from '../components/PolicyBanner'
 import Sidebar from '../components/Sidebar'
@@ -13,7 +13,7 @@ const Policy = () => {
     return (
         <>
         <Sidebar isOpen={isOpen} toggle={toggle}/>
-        <Navbar toggle={toggle}/>
+        <Navbar2 toggle={toggle}/>
         <PolicyBanner/>
         <APolicy /> 
         </>
