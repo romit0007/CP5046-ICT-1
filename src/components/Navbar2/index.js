@@ -4,7 +4,7 @@ import { Nav2, Navbar2Container, Nav2Logo, Mobile2Icon, Nav2Menu, Nav2Links, Nav
 
 import { animateScroll as scroll } from 'react-scroll'
 
-import NavImage from '../../../src/Logo.png'
+// import NavImage from '../../../src/Logo.png'
 
 
 const Navbar2 = ({ toggle }) => {
@@ -16,7 +16,7 @@ const Navbar2 = ({ toggle }) => {
         <>
             <Nav2>
                 <Navbar2Container>
-                    <Nav2Logo to='/' onClick={toggeleHome} src={NavImage}>
+                    <Nav2Logo to='/' onClick={toggeleHome} > Best Life Medicals
                     </Nav2Logo>
                     <Mobile2Icon onClick={toggle}>
                         <FaBars />

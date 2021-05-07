@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 import { Link as LinkR } from 'react-router-dom'
-import { Link as LinkS } from 'react-scroll'
 
 export const Nav2 = styled.nav`
     background: #000;
@@ -36,7 +35,7 @@ export const Nav2Logo = styled(LinkR)`
     font-size: 1.5rem;
     display: flex;
     align-items: center;
-    margin-left: 24px:
+    margin-left: 24px;
     font-weight: bold;
     text-decoration: none; 
 `;
@@ -95,7 +94,7 @@ export const Nav2Btn = styled.nav`
     @media screen (max-width: 768px){
         display: none;
     }
-`;
+`
 
 export const Nav2BtnLink = styled(LinkR)`
     border-radius: 50px;
