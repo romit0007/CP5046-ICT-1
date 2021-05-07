@@ -1,5 +1,5 @@
 import React from 'react'
-import Banner from '../../../src/covid-banner.jpeg'
+import Banner from '../../../src/book-banner.jpeg'
 import {BookABannerContainer, BookABannerBg, BookABannerH1} from './BookABannerElements'
 
 const BookABanner = () => {
