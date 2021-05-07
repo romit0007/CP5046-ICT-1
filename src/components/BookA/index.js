@@ -3,7 +3,7 @@ import React from 'react'
 import {FormContainer, FormWrap, FormContent, Form, FormButton, FormInput, FormLabel } from './BookAElements'
 import {FormTable, FormColumn, FormLogo, FormH1, FormP, FormP1, FormImage} from './BookAElements'
 
-import Logo from '../../../src/logo.png'
+import Logo from '../../../src/Logo.png'
 
 
 
